@@ -11,7 +11,7 @@ import cvxpy as cp
 
 st.title('Simulation')
 
-data = pd.read_csv('../assets.csv')
+data = pd.read_csv(os.path.join(os.path.dirname(__file__), "../assets.csv"))
 
 assets1 = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "META", "NVDA", "BRK-B", "JPM", "V",
           "JNJ", "WMT", "PG", "DIS", "MA", "NFLX", "XOM", "PFE", "KO", "PEP"]
