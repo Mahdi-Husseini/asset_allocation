@@ -52,7 +52,7 @@ np.random.seed(42)
 
 
 
-num_portfolios = st.sidebar.slider('select number of portfolios:', min_value=10, max_value=10000000)  # Reduce number of random portfolios for better visualization
+num_portfolios = st.sidebar.slider('select number of portfolios:', min_value=10, max_value=500000)  # Reduce number of random portfolios for better visualization
 risk = st.sidebar.number_input('adjust risk choice: ', min_value=0, max_value= 100)
 risk_free_rate = risk / 100
 
