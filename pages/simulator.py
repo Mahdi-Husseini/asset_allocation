@@ -4,6 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Simulation - Portfolio Analysis", layout="wide")
 
 import numpy as np
+import os
 import quantstats as qs
 import matplotlib.pyplot as plt
 import scipy.optimize as sco
