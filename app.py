@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import scipy.optimize as sco
 import cvxpy as cp
 
-data = pd.read_csv('C:\\Users\\user\\Desktop\\stream_fin\\assets.csv')
+data = pd.read_csv('assets.csv')
 
 assets1 = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "META", "NVDA", "BRK-B", "JPM", "V",
           "JNJ", "WMT", "PG", "DIS", "MA", "NFLX", "XOM", "PFE", "KO", "PEP"]
